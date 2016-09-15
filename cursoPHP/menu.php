@@ -7,7 +7,7 @@ and open the template in the editor.
 <div>
     <ul class="list-group">
         <li class="list-group-item">
-            <a href="index.php">Home</a>
+            <a href="index.php?pagina=home.php">Home</a>
         </li>
         <li class="list-group-item">
             <a href="index.php?pagina=empresa.php">Empresa</a>

@@ -1,3 +1,8 @@
+<div class="alert alert-info" role="alert">
+    <?php
+    echo 'Contatos';
+    ?>
+</div>
 <div  class="input-group">
     <?php
     if ($_POST['enviado']) {
