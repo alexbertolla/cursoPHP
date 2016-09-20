@@ -7,19 +7,19 @@ and open the template in the editor.
 <div>
     <ul class="list-group">
         <li class="list-group-item">
-            <a href="index.php?pagina=home.php">Home</a>
+            <a href="home">Home</a>
         </li>
         <li class="list-group-item">
-            <a href="index.php?pagina=empresa.php">Empresa</a>
+            <a href="empresa">Empresa</a>
         </li>
         <li class="list-group-item">
-            <a href="index.php?pagina=produtos.php">Produtos</a>
+            <a href="produtos">Produtos</a>
         </li>
         <li class="list-group-item">
-            <a href="index.php?pagina=servicos.php">Seriços</a>
+            <a href="servicos">Seriços</a>
         </li>
         <li class="list-group-item">
-            <a href="index.php?pagina=contato.php">Contato</a>
+            <a href="contato">Contato</a>
         </li>
     </ul>
 </div>
