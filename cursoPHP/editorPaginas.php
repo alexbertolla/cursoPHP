@@ -35,7 +35,8 @@ and open the template in the editor.
             <input type="hidden" name="titulo" value="<?= $pagina['titulo'] ?>"/>
             <h1 align="center"><?= $pagina['titulo'] ?></h1>
             <textarea id="conteudo" name="conteudo"><?= $pagina['conteudo'] ?></textarea>
-            <button type="submit">Salvar</button>
+            <!--<button type="submit">Salvar</button>-->
+            <button type="button" onclick="window.history.back()">Voltar</button>
         </form>
         <script>CKEDITOR.replace('conteudo')</script>
     </body>

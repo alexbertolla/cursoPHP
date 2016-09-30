@@ -14,7 +14,7 @@ echo "-OK <br>";
 echo "criando tabela de páginas";
 $conn->query('CREATE TABLE site (
   id int(11) NOT NULL AUTO_INCREMENT,
-  palavraChave text,
+  nome text,
   arquivo text,
   titulo text,
   conteudo text,
@@ -23,7 +23,7 @@ $conn->query('CREATE TABLE site (
 echo "-OK <br>";
 
 echo "inserindo dados na tabela da páginas";
-$sql = 'INSERT INTO site (palavraChave, arquivo, titulo) VALUES '
+$sql = 'INSERT INTO site (nome, arquivo, titulo) VALUES '
         . '(\'home\',\'home.php\',\'Home\'),'
         . '(\'contato\',\'contato.php\',\'Contato\'), '
         . '(\'empresa\',\'empresa.php\',\'Empresa\'),'
